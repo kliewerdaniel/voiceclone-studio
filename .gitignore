@@ -1,0 +1,28 @@
+# virtualenv
+.venv/
+venv/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# model weights / caches
+models/
+*.safetensors
+*.bin
+*.pt
+*.gguf
+.cache/
+hf_cache/
+
+# user data — never commit audio
+voices/
+output/
+config.json
+samples/
+
+# editors / os
+.idea/
+.vscode/
+.DS_Store
